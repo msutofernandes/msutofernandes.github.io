@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Assignment 2</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <a href="../index.html"> <img src="../img/logo.png" height="37.7" width="234">
+      </div>
+
+      <ul class="list-unstyled components">
+        <li>
+          <a href="../index.html">
+            <i class="glyphicon glyphicon-home"></i>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+            <i class="glyphicon glyphicon-book"></i>
+            Don't Make Me Think
+          </a>
+          <ul class="collapse list-unstyled" id="pageSubmenu">
+            <li><a href="dmmt_page1.html">Chapter 1</a></li>
+            <li><a href="dmmt_page2.html">Chapter 2</a></li>
+            <li><a href="dmmt_page3.html">Chapter 3</a></li>
+            <li><a href="dmmt_page4.html">Chapter 4</a></li>
+            <li><a href="dmmt_page5.html">Chapter 5</a></li>
+            <li><a href="dmmt_page6.html">Chapter 6</a></li>
+            <li><a href="dmmt_page7.html">Chapter 7</a></li>
+            <li><a href="dmmt_page8.html">Chapter 8</a></li>
+            <li><a href="dmmt_page9.html">Chapter 9</a></li>
+            <li><a href="dmmt_page10.html">Chapter 10</a></li>
+            <li><a href="dmmt_page11.html">Chapter 11</a></li>
+            <li><a href="dmmt_page12.html">Chapter 12</a></li>
+            <li><a href="dmmt_page13.html">Chapter 13</a></li>
+          </ul>
+
+        </li>
+        <li>
+          <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false">
+            <i class="glyphicon glyphicon-book"></i>
+            Rocket Surgery Made Easy
+          </a>
+          <ul class="collapse list-unstyled" id="pageSubmenu2">
+            <li><a href="rocket_page1.html">Chapter 1</a></li>
+            <li><a href="rocket_page2.html">Chapter 2</a></li>
+            <li><a href="rocket_page3.html">Chapter 3</a></li>
+            <li><a href="rocket_page4.html">Chapter 4</a></li>
+            <li><a href="rocket_page5.html">Chapter 5</a></li>
+            <li><a href="rocket_page6.html">Chapter 6</a></li>
+            <li><a href="rocket_page7.html">Chapter 7</a></li>
+            <li><a href="rocket_page8.html">Chapter 8</a></li>
+            <li><a href="rocket_page9.html">Chapter 9</a></li>
+            <li><a href="rocket_page10.html">Chapter 10</a></li>
+            <li><a href="rocket_page11.html">Chapter 11</a></li>
+            <li><a href="rocket_page12.html">Chapter 12</a></li>
+            <li><a href="rocket_page13.html">Chapter 13</a></li>
+            <li><a href="rocket_page14.html">Chapter 14</a></li>
+          </ul>
+        </li>
+        <li>
+        </li>
+        <li>
+          <a href="contact.html">
+            <i class="glyphicon glyphicon-send"></i>
+            Contact
+          </a>
+        </li>
+        </ul>
+    </nav>
+
+    <div id="content">
+
+      <nav class="navbar navbar-default">
+
+        <div class="container-fluid">
+          <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+            <i class="glyphicon glyphicon-align-left"></i>
+          </button>
+          <div class="title">Web Usability Design Tutorial</div>
+        </div>
+      </nav>
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="rocket.html">Rocket Surgery Made Easy</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Chapter 9</li>
+        </ol>
+      </nav>
+
+      <h3>Chapter 9 – Observers</h3>
+      <p>Do everything you can to get everyone come watch the test. Choose a “slow” day of the week or month to make it easy for people to attend. Send the invitation two weeks before the test.</p>
+      <p>Do whatever it takes to get people from management to come.</p>
+      <p>Watching live instead of recordings is more compelling, and when you attend a session with other observers, you benefit from the shared group experience and compare observations.</p>
+      <p>The observers should take notes, write three most serious usability problems the notice and suggest questions to ask the participants.</p>
+
+      <ul class="pager">
+        <li class="previous"><a href="rocket_page9.html">Previous</a></li>
+        <li class="next"><a href="rocket_page10.html">Next Chapter</a></li>
+      </ul>
+
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#sidebarCollapse').on('click', function() {
+          $('#sidebar').toggleClass('active');
+        });
+      });
+    </script>
+
+</body>
+
+</html>
