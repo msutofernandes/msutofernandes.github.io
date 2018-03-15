@@ -1,6 +1,4 @@
-/*
-    DEMO STYLE
-*/
+
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
@@ -45,9 +43,6 @@ a, a:hover, a:focus {
     margin: 40px 0;
 }
 
-/* ---------------------------------------------------
-    SIDEBAR STYLE
------------------------------------------------------ */
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -71,7 +66,6 @@ div.title {
   line-height: 1.1;
   margin-top: 10px;
   margin-left: 50px;
-
 }
 
 #sidebar.active {
@@ -121,10 +115,10 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
     font-family: 'Glyphicons Halflings';
     font-size: 0.6em;
 }
+
 a[aria-expanded="true"]::before {
     content: '\e260';
 }
-
 
 ul ul a {
     font-size: 0.9em !important;
@@ -154,11 +148,6 @@ a.article, a.article:hover {
     color: #fff !important;
 }
 
-
-
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
 #content {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -168,9 +157,6 @@ a.article, a.article:hover {
     transition: all 0.3s;
 }
 
-/* ---------------------------------------------------
-    MEDIAQUERIES
------------------------------------------------------ */
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -270px;
